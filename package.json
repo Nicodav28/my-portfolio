@@ -1,7 +1,7 @@
 {
   "name": "nicolas-estevez-portfolio",
   "version": "0.1.0",
-  "homepage": "https://nicodav28.github.io",
+  "homepage": "https://nicodav28.github.io/my-portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

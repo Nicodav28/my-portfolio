@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to='/'>
+        <NavLogo to='/my-portfolio/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <DiCssdeck size="3rem" /> <Span>My Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
